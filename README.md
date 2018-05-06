@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski.svg?token=g1UYpGUr6KGSuzHkqfYc&branch=master)](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/ksarzynski/test?branch=master)](https://bettercodehub.com/)
@@ -246,3 +247,8 @@ punktacji zadania!)
 - Różnorodne asercje (co najmniej 5 różnych).
 - Struktura projektu.
 
+=======
+[![BCH compliance](https://bettercodehub.com/edge/badge/ksarzynski/test?branch=master)](https://bettercodehub.com/)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/5ccd11e6a6436092112b/maintainability)](https://codeclimate.com/github/ksarzynski/test/maintainability)
+>>>>>>> 57aa77b4201fd502919a9d78733fe6e6391a1f11
