@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.projekt2.app.MessageAppTest" time="0.104" tests="25" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.projekt2.app.MessageAppTest" time="0.062" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.162-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/kamil/Pulpit/projekt2-ksarzynski"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kamil/Pulpit/test"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/kamil/Pulpit/projekt2-ksarzynski"/>
+    <property name="user.dir" value="/home/kamil/Pulpit/test"/>
     <property name="java.runtime.version" value="1.8.0_162-8u162-b12-0ubuntu0.16.04.2-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
@@ -59,29 +59,29 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="InvalidMessageAndServerReturns2" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
-  <testcase name="ValidServerAndNullMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="ValidServerWithFalseConnectionReturns1" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
+  <testcase name="InvalidMessageAndServerReturns2" classname="com.projekt2.app.MessageAppTest" time="0"/>
+  <testcase name="ValidServerAndNullMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="ValidServerWithFalseConnectionReturns1" classname="com.projekt2.app.MessageAppTest" time="0.003"/>
   <testcase name="ValidMessageReturnsNotNull" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
   <testcase name="ValidMessageReturns0" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
   <testcase name="InvalidServerAndMessageReturns2_2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="InvalidServerReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
+  <testcase name="InvalidServerReturns2" classname="com.projekt2.app.MessageAppTest" time="0"/>
   <testcase name="ValidServerAndMessageNotSentReturns1" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="sentMessageIsTrue" classname="com.projekt2.app.MessageAppTest" time="0.006"/>
-  <testcase name="ValidConnectionReturns0" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="sentMessageIsTrue" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="ValidConnectionReturns0" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
   <testcase name="InvalidMessageNotSentReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="InvalidMessageReturnsException" classname="com.projekt2.app.MessageAppTest" time="0.005"/>
+  <testcase name="InvalidMessageReturnsException" classname="com.projekt2.app.MessageAppTest" time="0.004"/>
   <testcase name="NullConnectionThrowsException2" classname="com.projekt2.app.MessageAppTest" time="0.003"/>
-  <testcase name="connectionIsTrue" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="connectionIsTrue" classname="com.projekt2.app.MessageAppTest" time="0"/>
   <testcase name="NullServerAndValidMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="InvalidServerNotSentReturns2" classname="com.projekt2.app.MessageAppTest" time="0.003"/>
-  <testcase name="connectionIsFalse" classname="com.projekt2.app.MessageAppTest" time="0.004"/>
+  <testcase name="InvalidServerNotSentReturns2" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="connectionIsFalse" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
   <testcase name="ValidConnectionIsNotNull" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="sentMessageIsFalse" classname="com.projekt2.app.MessageAppTest" time="0.002"/>
+  <testcase name="sentMessageIsFalse" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
   <testcase name="InvalidConnectionReturns1" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="ValidConnectionNotEquals1" classname="com.projekt2.app.MessageAppTest" time="0.004"/>
+  <testcase name="ValidConnectionNotEquals1" classname="com.projekt2.app.MessageAppTest" time="0.003"/>
   <testcase name="NullServerAndNullMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="InvalidServerAndMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
+  <testcase name="InvalidServerAndMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0"/>
   <testcase name="ValidConnectionNotSame1" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
-  <testcase name="InvalidMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0.001"/>
+  <testcase name="InvalidMessageReturns2" classname="com.projekt2.app.MessageAppTest" time="0"/>
 </testsuite>

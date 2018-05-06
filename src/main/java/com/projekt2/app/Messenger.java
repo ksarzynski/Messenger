@@ -5,7 +5,6 @@ import com.projekt2.messenger.MalformedRecipientException;
 import com.projekt2.messenger.MessageService;
 import com.projekt2.messenger.SendingStatus;
 
-
 public class Messenger {
 
 	private MessageService ms;

@@ -60,19 +60,19 @@ public class MessageAppEasyMockTest {
 	}
 		
 	@Test
-	public void InvalidServerAndValidMessage() throws MalformedRecipientException {
-		EasyMock.expect(mockMessageService.send(".eu", null)).andThrow(new MalformedRecipientException());
-		EasyMock.replay(mockMessageService);
-		int response = messenger.sendMessage(".eu", null);
-		assertEquals(2, response);
-		EasyMock.verify(mockMessageService);
-}
-	
-	@Test
 	public void NullServerAndValidMessage() throws MalformedRecipientException {
 		EasyMock.expect(mockMessageService.send(null, "content")).andThrow(new MalformedRecipientException());
 		EasyMock.replay(mockMessageService);
 		int response = messenger.sendMessage(null, "content");
+		assertEquals(2, response);
+		EasyMock.verify(mockMessageService);
+	}
+	
+	@Test
+	public void NullServerAndInvalidMessage() throws MalformedRecipientException {
+		EasyMock.expect(mockMessageService.send(null, "t")).andThrow(new MalformedRecipientException());
+		EasyMock.replay(mockMessageService);
+		int response = messenger.sendMessage(null, "t");
 		assertEquals(2, response);
 		EasyMock.verify(mockMessageService);
 	}
