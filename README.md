@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski.svg?token=g1UYpGUr6KGSuzHkqfYc&branch=master)](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski)
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/ksarzynski/test?branch=master)](https://bettercodehub.com/)
