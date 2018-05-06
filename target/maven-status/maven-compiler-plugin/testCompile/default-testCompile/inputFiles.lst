@@ -1,3 +1,3 @@
-/home/kamil/Pulpit/projekt2/projekt2-ksarzynski/src/test/java/com/example/mockdemo/app/MessageAppEasyMockTest.java
-/home/kamil/Pulpit/projekt2/projekt2-ksarzynski/src/test/java/com/example/mockdemo/app/MessageAppTest.java
-/home/kamil/Pulpit/projekt2/projekt2-ksarzynski/src/test/java/com/example/mockdemo/app/MessageAppMockitoTest.java
+/home/kamil/Pulpit/projekt2-ksarzynski/src/test/java/com/projekt2/app/MessageAppMockitoTest.java
+/home/kamil/Pulpit/projekt2-ksarzynski/src/test/java/com/projekt2/app/MessageAppTest.java
+/home/kamil/Pulpit/projekt2-ksarzynski/src/test/java/com/projekt2/app/MessageAppEasyMockTest.java

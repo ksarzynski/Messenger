@@ -1,1 +1,7 @@
-com/example/mockdemo/app/Messenger$1.class
+com/projekt2/messenger/MockMessageService.class
+com/projekt2/app/Messenger.class
+com/projekt2/app/Messenger$1.class
+com/projekt2/messenger/MalformedRecipientException.class
+com/projekt2/messenger/MessageService.class
+com/projekt2/messenger/ConnectionStatus.class
+com/projekt2/messenger/SendingStatus.class
