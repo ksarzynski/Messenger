@@ -3,8 +3,6 @@
 
 [![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt1-ksarzynski.svg?token=g1UYpGUr6KGSuzHkqfYc&branch=master)](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt1-ksarzynski)
 
-**PROJEKT 3** (12 pkt)
-
 Gra w kółko i krzyżyk. Prosta gra, którą wszyscy znają. Wymagania do tej gry są następujące:
 - Symbol można umieścić na planszy o wymiarach 3x3.
 - Sposób na określenie, który gracz powinien jako następny wykonać posunięcie.
@@ -47,8 +45,6 @@ podpunkt od obowiązkowej punktacji zadania!)
 [![BCH compliance](https://bettercodehub.com/edge/badge/ksarzynski/test?branch=master)](https://bettercodehub.com/)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5ccd11e6a6436092112b/maintainability)](https://codeclimate.com/github/ksarzynski/test/maintainability)
-
-**Projekt 3** (16 pkt)
 
 Jesteś deweloperem piszącym fragment (bardzo uproszczonej) aplikacji (tutaj klasy **Messenger**) wysyłającej komunikaty do serwera. Twoja klasa korzysta z implementacji interfejsu **MessageService**. Zadaniem twojej aplikacji (uwaga: często spotykane w praktyce) jest m.in. ukrywanie statusów oraz wyjątków generowanych przez wykorzystywane komponenty takie jak **MessageService**. Zgodnie z życzeniem klienta twoja metoda odpowiedzialna za wysyłanie komunikatów ma zwracać liczby:
 - 0 gdy powodzenie
