@@ -37,7 +37,6 @@ podpunkt od obowiązkowej punktacji zadania!)
 - Ocena opisu commitów 
 - Stan repozytorium (żeby nie był śmietnikiem!!!)
 
-# Testowanie aplikacji JAVA 2017-2018
 ## Projekt 2 (Maven, JUnit oraz atrapy) 
 
 [![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski.svg?token=g1UYpGUr6KGSuzHkqfYc&branch=master)](https://travis-ci.com/TestowanieJAVA2017-2018Gr2/projekt2-ksarzynski)
